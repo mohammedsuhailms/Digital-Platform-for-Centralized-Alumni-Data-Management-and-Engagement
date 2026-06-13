@@ -213,7 +213,7 @@ Home
  *Stakeholder Review
  *Design Approval
  *Frontend Development
-**13.REACT PROJECT SETUP**:
+ **13.REACT PROJECT SETUP**:
    CREATE PROJECT:
        npx create-react-app alumni-management-system
    INSTALL DEPENDENCIES:
