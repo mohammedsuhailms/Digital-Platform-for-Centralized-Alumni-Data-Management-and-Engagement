@@ -48,7 +48,7 @@
 | GET    | /api/feedback      |
 | POST   | /api/feedback      |
 | DELETE | /api/feedback/{id} |
-**6.TABLE LIST**:
+   **6.TABLE LIST**:
 1.Users
 2.Alumni
 3.Student
