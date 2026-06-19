@@ -263,4 +263,91 @@ Home
 | Authentication  | JWT             |
 | Hosting         | Vercel / Render |
 
+1. Login Module
 
+The Login Module is used for secure authentication of users such as Alumni, Students, and Admin.
+
+Features:
+User login with email/username & password
+Role-based access (Admin / Alumni / Student)
+JWT or session-based authentication (if backend used)
+Forgot password option (optional)
+Secure login validation
+
+2. Registration Module
+
+This module allows new users to register in the platform.
+
+Features:
+Alumni registration form
+Student registration form
+Input validation (email, phone, batch, etc.)
+Profile creation
+Data stored in database
+Fields Example:
+Name
+Email
+Department
+Batch Year
+Company (for alumni)
+Password
+
+3. Dashboard UI
+
+Dashboard is the main control center of the platform.
+
+Features:
+Total alumni count display
+Active users stats
+Job postings overview
+Event updates
+Navigation sidebar
+Quick access cards
+UI Sections:
+Header (Profile + Notifications)
+Sidebar (Modules navigation)
+Main Content Area (Stats & Charts)
+
+4. Forms Completed Module
+
+This module handles all submitted forms in the system.
+
+Features:
+Alumni registration form submissions
+Job posting forms
+Event registration forms
+Mentor request forms
+Form validation status
+
+5. Data Listing Module
+
+This module displays stored data in structured table format.
+
+Features:
+Alumni list view
+Search functionality
+Filter by batch / department / company
+Pagination support
+Edit / Delete actions (Admin only)
+UI Example:
+Name	Batch	Department	Company
+
+6. Frontend Review
+
+Frontend part is designed for user-friendly experience.
+
+Features:
+Responsive UI (Mobile + Desktop)
+Clean dashboard design
+Reusable components
+Form validation UI
+Navigation system
+Modern UI using React / Bootstrap / Tailwind
+Technologies:
+React.js
+HTML5
+CSS3
+JavaScript
+Bootstrap / Tailwind CSS
+
+backend setup process going on-----upcoming-----
