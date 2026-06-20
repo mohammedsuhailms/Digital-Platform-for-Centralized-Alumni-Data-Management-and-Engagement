@@ -350,4 +350,126 @@ CSS3
 JavaScript
 Bootstrap / Tailwind CSS
 
-backend setup process going on-----upcoming-----
+Backend Setup – Digital Platform for Centralized Alumni Data Management and Engagement
+Overview
+
+The backend of the Alumni Management Platform is developed using Spring Boot and follows a layered architecture to provide secure, scalable, and maintainable REST APIs. It handles user authentication, alumni data management, event handling, job postings, mentorship requests, and dashboard analytics.
+
+Technology Stack
+Java 17
+Spring Boot
+Spring Data JPA
+Spring Web
+MySQL Database
+Maven
+Hibernate
+Postman (API Testing)
+Backend Architecture
+backend
+│
+├── controller
+│     ├── AuthController.java
+│     ├── AlumniController.java
+│     ├── StudentController.java
+│     ├── EventController.java
+│     ├── JobController.java
+│     └── MentorshipController.java
+│
+├── service
+│     ├── AuthService.java
+│     ├── AlumniService.java
+│     ├── StudentService.java
+│     ├── EventService.java
+│     ├── JobService.java
+│     └── MentorshipService.java
+│
+├── repository
+│     ├── AlumniRepository.java
+│     ├── StudentRepository.java
+│     ├── EventRepository.java
+│     ├── JobRepository.java
+│     └── MentorshipRepository.java
+│
+├── entity
+│     ├── Alumni.java
+│     ├── Student.java
+│     ├── Event.java
+│     ├── Job.java
+│     └── Mentorship.java
+│
+├── config
+│     └── SecurityConfig.java
+│
+└── application.properties
+Dependencies Used
+Spring Boot Starter Web
+Spring Boot Starter Data JPA
+Spring Boot Starter Validation
+Spring Boot Starter Security (Optional)
+MySQL Connector
+Lombok
+Maven
+Database Connectivity
+
+The backend is connected to a MySQL database using Spring Data JPA and Hibernate for object-relational mapping.
+
+application.properties
+spring.datasource.url=jdbc:mysql://localhost:3306/alumni_management
+spring.datasource.username=root
+spring.datasource.password=root
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+server.port=8080
+REST API Modules
+Authentication Module
+Login API
+Registration API
+Alumni Module
+Add Alumni
+Update Alumni
+Delete Alumni
+View Alumni List
+Student Module
+Student Registration
+Profile Management
+Event Module
+Create Event
+Update Event
+View Events
+Job Module
+Post Jobs
+View Job Listings
+Mentorship Module
+Request Mentor
+Assign Mentor
+Layered Architecture
+Controller Layer
+
+Handles incoming HTTP requests and returns API responses.
+
+Service Layer
+
+Contains business logic and processes user requests.
+
+Repository Layer
+
+Interacts with the MySQL database using JPA repositories.
+
+Entity Layer
+
+Represents database tables as Java classes.
+
+Configuration Layer
+
+Manages security and application configuration.
+
+API Testing
+
+All REST APIs are tested using Postman to ensure proper request handling, response generation, and database integration.
+
+Outcome
+
+The backend provides a robust and scalable foundation for the Digital Platform for Centralized Alumni Data Management and Engagement, enabling efficient management of alumni records, events, jobs, mentorship programs, and communication through secure RESTful services.
