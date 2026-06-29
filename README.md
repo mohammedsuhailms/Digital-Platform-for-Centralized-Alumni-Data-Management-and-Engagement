@@ -611,7 +611,7 @@ The backend provides a robust and scalable foundation for the Digital Platform f
 * API Endpoints
 * GitHub Repository Link
 
-📘 Project Report Structure
+📘 **Project Report Structure**
 Digital Platform for Centralized Alumni Data Management and Engagement (SIH-25017)
 Preliminary Pages
 Cover Page
@@ -745,6 +745,15 @@ API Endpoints
 GitHub Repository Structure
 Installation Guide
 User Manual
+
+Title: Digital Platform for Centralized Alumni Data Management and Engagement (SIH-25017)
+Student: Mohammed Suhail M S
+Register Number: 922524148061
+College: V.S.B. Engineering College, Karur
+Department: CSE (Artificial Intelligence & Machine Learning)
+University: Anna University
+Guide: Mrs. Latha P (H.O.D. CSBS Department)
+Academic Year: 2026–2027
 
 
 ************PROJECT REPORT THE COMPLETITION OF THE PROJECT ********************
